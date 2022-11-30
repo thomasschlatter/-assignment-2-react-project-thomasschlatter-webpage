@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/assignment-2-react-project-thomasschlatter-webpage/static/css/main.0420ce7a.css",
+    "main.css": "/assignment-2-react-project-thomasschlatter-webpage/static/css/main.bd8270d3.css",
     "main.js": "/assignment-2-react-project-thomasschlatter-webpage/static/js/main.e2f17a5b.js",
     "static/js/787.447f7318.chunk.js": "/assignment-2-react-project-thomasschlatter-webpage/static/js/787.447f7318.chunk.js",
     "index.html": "/assignment-2-react-project-thomasschlatter-webpage/index.html",
-    "main.0420ce7a.css.map": "/assignment-2-react-project-thomasschlatter-webpage/static/css/main.0420ce7a.css.map",
+    "main.bd8270d3.css.map": "/assignment-2-react-project-thomasschlatter-webpage/static/css/main.bd8270d3.css.map",
     "main.e2f17a5b.js.map": "/assignment-2-react-project-thomasschlatter-webpage/static/js/main.e2f17a5b.js.map",
     "787.447f7318.chunk.js.map": "/assignment-2-react-project-thomasschlatter-webpage/static/js/787.447f7318.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0420ce7a.css",
+    "static/css/main.bd8270d3.css",
     "static/js/main.e2f17a5b.js"
   ]
 }
