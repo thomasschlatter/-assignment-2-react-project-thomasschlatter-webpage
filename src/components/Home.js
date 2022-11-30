@@ -10,7 +10,7 @@ export function Home() {
       <br></br>- translate ✓<br></br>- about ✓<br></br>
       2. (bonus) 使用任何UI Library ✓<br></br>
       3. (bonus) 切換至translate頁面的時候，會自動focus ✓<br></br>
-      4.(bonus) deploy 到 Github-pages ✓<br></br>
+      4. (bonus) deploy 到 Github-pages ✓<br></br>
     </section>
   );
 }
