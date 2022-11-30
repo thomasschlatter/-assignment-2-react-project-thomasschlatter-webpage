@@ -50,19 +50,32 @@ select {
 
 section {
   padding: 20px;
-  width: 500px;
+  width: 60%;
   line-height: 1.7em;
   margin: 0 auto;
 }
 
-button {
-  background: #61dafb;
-  color: white;
-  border: none;
+.translate-button {
+  display: inline-block;
   padding: 10px 20px;
-  border-radius: 5px;
+  margin: 10px 20px;
+  font-size: 15px;
   cursor: pointer;
-  margin: 10px 20px 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: black;
+  background-color: #ffcce1;
+  border: none;
+}
+
+.translate-button:hover {
+  background-color: #b8e9e4;
+}
+
+.translate-button:active {
+  background-color: #b8e9e4;
+  transform: translateY(4px);
 }
 
 ul {
@@ -130,6 +143,7 @@ nav {
 .favorites-button {
   display: inline-block;
   padding: 10px 20px;
+  margin: 10px 20px;
   margin: 10p;
   font-size: 15px;
   cursor: pointer;

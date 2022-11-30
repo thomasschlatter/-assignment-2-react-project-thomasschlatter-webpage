@@ -79,7 +79,9 @@ export function Translate() {
             <option value="zh-Hans">Chinese</option>
           </select>
         </div>
-        <button onClick={handleTranslateClick}>Translate!</button>
+        <button onClick={handleTranslateClick} class="translate-button">
+          Translate!
+        </button>
         <div>
           <textarea id="output"></textarea>
         </div>
