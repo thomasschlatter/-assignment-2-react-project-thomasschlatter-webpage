@@ -1,4 +1,5 @@
 import axios from "axios";
+import React, { useEffect } from "react";
 
 function handleTranslateClick() {
   const text = document.querySelector("#input").value;
@@ -29,6 +30,10 @@ function handleTranslateClick() {
 }
 
 export function Translate() {
+  useEffect(() => {
+    document.querySelector("#input").focus();
+  }, []);
+
   return (
     <section>
       <h1>Translate</h1>
