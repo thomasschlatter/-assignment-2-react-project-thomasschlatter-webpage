@@ -1,0 +1,190 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+textarea {
+  width: 100%;
+  height: 300px;
+}
+
+select {
+  width: 100%;
+  height: 30px;
+  font-size: 16px;
+}
+
+section {
+  padding: 20px;
+  width: 500px;
+  line-height: 1.7em;
+  margin: 0 auto;
+}
+
+button {
+  background: #61dafb;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 10px 20px 10px 20px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  background-color: #f1f1f1;
+}
+
+li a {
+  display: block;
+  color: #000;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color on hover */
+li a:hover {
+  background-color: #555;
+  color: white;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background: #282c34;
+  color: white;
+  margin: 0 auto;
+}
+
+.title {
+  padding: 40px;
+  text-align: center;
+  font-size: xx-large;
+  font-family: "Noto Sans TC", sans-serif;
+  color: black;
+}
+
+.card {
+  padding: 30px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  font-family: "Noto Sans TC", sans-serif;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.vocabulary {
+  display: flex;
+  align-items: center;
+}
+
+.word {
+  padding-right: 10px;
+}
+.definition {
+  margin-top: 0;
+}
+
+.favorites-button {
+  display: inline-block;
+  padding: 10px 20px;
+  margin: 10p;
+  font-size: 15px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: black;
+  background-color: #ffcce1;
+  border: none;
+}
+
+.favorites-button:hover {
+  background-color: #b8e9e4;
+}
+
+.favorites-button:active {
+  background-color: #b8e9e4;
+  transform: translateY(4px);
+}
+.example-button {
+  display: inline-block;
+  padding: 10px 20px;
+  margin: 10p;
+  font-size: 15px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: black;
+  background-color: #ffd3cc;
+  border: none;
+}
+
+.example-button:hover {
+  background-color: #b8e9e4;
+}
+
+.example-button:active {
+  background-color: #b8e9e4;
+  transform: translateY(4px);
+}
+
+div.hidden {
+  display: none;
+}
+
+span.star {
+  display: inline-block;
+  font-size: 30px;
+  padding: 5px;
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+}
+
+.yellow {
+  color: #facf96;
+}
