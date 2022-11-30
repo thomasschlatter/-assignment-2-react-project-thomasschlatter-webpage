@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/assignment-2-react-project-thomasschlatter-webpage/static/css/main.2c26e790.css",
+    "main.js": "/assignment-2-react-project-thomasschlatter-webpage/static/js/main.4f6d4628.js",
+    "static/js/787.447f7318.chunk.js": "/assignment-2-react-project-thomasschlatter-webpage/static/js/787.447f7318.chunk.js",
+    "index.html": "/assignment-2-react-project-thomasschlatter-webpage/index.html",
+    "main.2c26e790.css.map": "/assignment-2-react-project-thomasschlatter-webpage/static/css/main.2c26e790.css.map",
+    "main.4f6d4628.js.map": "/assignment-2-react-project-thomasschlatter-webpage/static/js/main.4f6d4628.js.map",
+    "787.447f7318.chunk.js.map": "/assignment-2-react-project-thomasschlatter-webpage/static/js/787.447f7318.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2c26e790.css",
+    "static/js/main.4f6d4628.js"
+  ]
+}
