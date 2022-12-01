@@ -15,7 +15,7 @@ import {
   useLocation,
 } from "react-router-dom";
 import { StaticRouter } from "react-router-dom/server";
-
+import { Helmet } from "react-helmet";
 import { Flashcard } from "./components/Flashcard";
 import { Translate } from "./components/Translate";
 import { About } from "./components/About";
@@ -97,18 +97,27 @@ function CurrentRoute() {
 
 export function App() {
   return (
-    <Router>
-      <Box sx={{ width: "100%" }}>
-        <MyTabs />
-        <Routes>
-          <Route path="*" element={<CurrentRoute />} />
-          <Route path="home" element={<Home />} />
-          <Route path="flashcard" element={<Flashcard />} />
-          <Route path="translate" element={<Translate />} />
-          <Route path="about" element={<About />} />
-        </Routes>
-      </Box>
-    </Router>
+    <div>
+      <Helmet>
+        {" "}
+        <meta
+          name="viewport"
+          content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+        ></meta>
+      </Helmet>
+      <Router>
+        <Box sx={{ width: "100%" }}>
+          <MyTabs />
+          <Routes>
+            <Route path="*" element={<CurrentRoute />} />
+            <Route path="home" element={<Home />} />
+            <Route path="flashcard" element={<Flashcard />} />
+            <Route path="translate" element={<Translate />} />
+            <Route path="about" element={<About />} />
+          </Routes>
+        </Box>
+      </Router>
+    </div>
   );
 }
 

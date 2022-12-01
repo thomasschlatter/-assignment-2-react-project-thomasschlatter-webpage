@@ -8,7 +8,11 @@ export function About() {
       <div>thomas@whoop.ch</div>
       <br></br>
       <br></br>
-      <img src="https://www.whoop.ch/main/assets/img/head.png" alt="Me" />
+      <img
+        src="https://www.whoop.ch/main/assets/img/head.png"
+        alt="Me"
+        width="100px"
+      />
     </section>
   );
 }

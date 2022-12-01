@@ -12,15 +12,15 @@ export default function Card({
   return (
     <>
       <div className="vocabulary">
-        <h2 className="word">
+        <h3 className="word">
           <span id={`star-${id}`} onClick={handleStarClick} className="star">
             &#x2605;
           </span>{" "}
           {word}
-        </h2>
-        <h4>{part_of_speech}</h4>
+        </h3>
+        {part_of_speech}
       </div>
-      <h3 className="definition">{definition}</h3>
+      <h5 className="definition">{definition}</h5>
       <button
         id={`button-${id}`}
         onClick={handleExampleClick}
